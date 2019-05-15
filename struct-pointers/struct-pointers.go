@@ -12,4 +12,5 @@ func main() {
 	p := &v
 	p.X = 1e9
 	fmt.Println(v)
+	//{1000000000 2}
 }

@@ -5,6 +5,7 @@ import (
 	"runtime"
 )
 
+//除非以 fallthrough 语句结束，否则分支会自动终止。
 func main() {
 	fmt.Println("Go runs on")
 	switch os := runtime.GOOS; os {

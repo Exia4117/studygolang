@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+//当匹配成功的时候停止
 func main() {
 	fmt.Println("When's Saturday?")
 	today := time.Now().Weekday()

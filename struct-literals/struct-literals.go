@@ -10,9 +10,10 @@ var (
 	v1 = Vertex{1, 2}
 	v2 = Vertex{X: 1}
 	v3 = Vertex{}
-	p  = &Vertex{1, 2}
+	p  = &Vertex{1, 2} // 类型为 *Vertex
 )
 
 func main() {
 	fmt.Println(v1, p, v2, v3)
+	//{1 2} &{1 2} {1 0} {0 0}
 }
