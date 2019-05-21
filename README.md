@@ -13,3 +13,5 @@ exercise-slice.go
 range-continued.go
 
 function-closure.go
+
+exercise-rot-reader.go

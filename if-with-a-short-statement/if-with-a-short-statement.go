@@ -6,7 +6,7 @@ import (
 )
 
 func pow(x, n, lim float64) float64 {
-	if v := math.Pow(x, n); v < lim {
+	if v := math.Pow(x, n); v < lim { //`if` 语句可以在条件之前执行一个简单的语句
 		return x
 	}
 	return lim
