@@ -7,7 +7,7 @@ import (
 
 type I interface {
 	M()
-}
+}	//在内部，接口值可以看做包含值和具体类型的元组(value, type)
 
 type T struct {
 	S string
