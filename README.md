@@ -15,3 +15,9 @@ range-continued.go
 function-closure.go
 
 exercise-rot-reader.go
+
+exercise-image.go
+
+channels.go
+
+select.go
